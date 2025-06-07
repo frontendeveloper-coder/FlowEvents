@@ -1,0 +1,33 @@
+@import "main.css";
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    height: 70px;
+    background-color: #002366;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-right{
+    display: flex;
+    gap: 44px;
+    padding: 25px 66px 0px 0px;
+}
+
+.header-right a{
+    color: #fefefe;
+}
+
+
+.main-logo{
+    padding: 7px 0px 0px 66px;
+}

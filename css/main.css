@@ -1,0 +1,441 @@
+.start-window{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0px 0px 0px;
+}
+
+.start-window-items{
+  display: flex;
+  align-items: center;
+  gap: 40px !important;
+  margin-bottom: 70px;
+  font-size: 34px;
+}
+
+.image-start-window{
+  width: 492px;
+  height: 295px;
+}
+
+.start-window-text {
+  font-size: 18px;
+  background:linear-gradient(#00D9F6, #1F18B2);
+  
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.start-window-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.button-more-info {
+  background-color: #9C00FF;
+  width: 200px;
+  height: 40px;
+  color: #fefefe;
+  border-radius: 10px;
+  border: none;
+}
+
+.start-window-left {
+  color: #fefefe;
+}
+
+/* menu */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  border: 2px solid #9C00FF;
+  overflow: hidden;
+  height: 200px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fefefe;
+}
+
+.grid-container-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fefefe; /* Фон теперь полупрозрачный */
+  padding: 20px 600px;
+  font-size: 18px; /* Увеличен шрифт для лучшего восприятия */
+  text-align: center;
+  color: #000; /* Черный текст для лучшего контраста */
+  max-width: 90%;
+}
+
+/* - keytering - */
+
+.keytering {
+  color:#9800FC; 
+  font-size: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 140px;
+  margin-left: 50px;
+  margin-right: 40px;
+}
+
+.card-keytering {
+  position: relative;
+  font-size: 20px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  border: 2px solid #9C00FF;
+  overflow: hidden;
+  height: 150px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fefefe;
+}
+
+.overlay-keytering {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fefefe; /* Фон теперь полупрозрачный */
+  padding: 15px 600px;
+  font-size: 18px; /* Увеличен шрифт для лучшего восприятия */
+  text-align: center;
+  color: #000; /* Черный текст для лучшего контраста */
+  max-width: 90%;
+}
+
+.keytering-text-second {
+  font-size: 15px;
+  color: #fefefe;
+}
+
+.keytering-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 25px;
+  align-items: center;
+}
+
+/* Location */
+
+.location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin-top: 140px;
+  margin-left: 70px;
+  margin-right: 60px;
+  
+  font-size: 36px;
+  color: #9C00FF;
+}
+
+.location-text-second {
+  font-size: 15px;
+  color: #fefefe;
+}
+
+.card-location {
+  position: relative;
+  font-size: 20px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  border: 2px solid #9C00FF;
+  overflow: hidden;
+  height: 140px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fefefe;
+}
+
+.choose-location {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 25px;
+  align-items: center;
+}
+
+.overlay-location {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fefefe; /* Фон теперь полупрозрачный */
+  padding: 15px 600px;
+  font-size: 18px; /* Увеличен шрифт для лучшего восприятия */
+  text-align: center;
+  color: #000; /* Черный текст для лучшего контраста */
+  max-width: 90%;
+}
+
+/* private holidays */
+
+.private-holidays {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin-top: 140px;
+  margin-left: 85px;
+  margin-right: 120px;
+  
+  font-size: 36px;
+  color: #9C00FF;
+}
+
+.private-text-second {
+  font-size: 15px;
+  color: #fefefe;
+}
+
+.private-holidays-items {
+  display: grid;
+  /* две колонки одинаковой ширины */
+  grid-template-columns: repeat(2, 1fr);
+  /* отступы между карточками */
+  gap: 20px;
+  /* чтобы центрировать контент при узком экране */
+  justify-content: center;
+  padding: 20px;
+}
+
+.card-private-holidays {
+  border: 3px solid purple;
+  border-radius: 12px;
+  /* чтобы все карточки были одинаковой высоты */
+  aspect-ratio: 16/9;
+  
+  position: relative;
+  font-size: 20px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  border: 2px solid #9C00FF;
+  overflow: hidden;
+  height: 140px;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fefefe;
+}
+
+.private-holidays-items .overlay-holidays {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* полупрозрачный белый фон для текста */
+  background: rgba(255, 255, 255, 0.85);
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+
+.private-holidays-items > .card-private-holidays:nth-child(4n+3),
+.private-holidays-items > .card-private-holidays:nth-child(4n+4) {
+  transform: translateX(25%); /* сдвиг на половину колонки (примерно) */
+}
+
+
+/* culture-events */
+
+.culture-events {
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  color: #fefefe;
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+.culture-events-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 45px;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+}
+
+.events-items {
+  width: 250px;
+  height: 280px;
+  border-radius: 12px;
+  background-size: cover;
+}
+
+.event-img {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.swipe-left-button {
+  background-color: transparent;
+  border: 0;
+}
+
+.swipe-left-img {
+  transform: rotate(90deg); /* Поворот на 90 градусов */
+}
+
+.swipe-right-button {
+  background-color: transparent;
+  border: 0;
+}
+
+.swipe-right-img {
+  transform: rotate(-90deg); /* Поворот на 90 градусов */
+}
+
+.event-text {
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Main About*/
+
+.main-about {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  margin-top: 50px;
+  font-size: 36px;
+  color: #fefefe;
+  
+  order: 2;
+}
+
+.main-about-text {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 65px;
+}
+
+.main-about-text p {
+  position: relative;
+  z-index: 1; /* Текст над фоном */
+  padding: 20px; /* Отступ от краев фона */
+}
+
+.EllipseBG {
+  position: absolute;
+  order: -10; /* Перемещает перед текстом в flex-контейнере */
+  width: 100%; /* или фиксированная ширина */
+  max-width: 550px; /* ограничение размера */
+  height: auto; /* сохраняет пропорции */
+}
+
+/* - Footer - */
+
+.footer {
+  margin-top: 115px;
+  height: 70px;
+  background-color: #002366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-items {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.footer-items a {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-items {
+  display: flex;
+  gap: 20px; /* Расстояние между элементами */
+  flex-wrap: wrap; /* Перенос на новую строку при нехватке места */
+}
+
+.footer-item {
+  display: flex;
+  align-items: center; /* Выравниваем иконку и текст по вертикали */
+  gap: 8px; /* Расстояние между иконкой и текстом */
+}
+
+.footer-item a {
+  white-space: nowrap; /* Запрет переноса текста */
+  font-family: Arial, sans-serif; /* Единый шрифт */
+  color: #fefefe; /* Цвет текста */
+  text-decoration: none; /* Убираем подчёркивание */
+}
+
+.footer-item img {
+  width: 30px; /* Фиксированный размер иконок */
+  height: 30px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+
