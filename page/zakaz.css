@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-content: center;   
+    margin-top: 30px; 
+}
+
+.main-container {
+    width: 450px;
+    height: 380px;
+    border-radius: 12px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    
+    background-color: #002366;
+}
+.main-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    color: #fefefe;
+    font-size: 18px;
+}
+
+.main-button {
+    display: flex;
+    gap: 50px;
+}
+
+.btn-zakaz {
+    width: 120px;
+    height: 30px;
+    background-color: #9800FC;
+    border: 0;
+    color: #fefefe;
+    border-radius: 5px;
+}

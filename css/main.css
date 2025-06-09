@@ -38,10 +38,14 @@
 .button-more-info {
   background-color: #9C00FF;
   width: 200px;
-  height: 40px;
+  height: 45px;
   color: #fefefe;
   border-radius: 10px;
   border: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .start-window-left {
@@ -83,7 +87,6 @@
   font-weight: 200;
   text-align: center;
 }
-
 
 .overlay {
   position: absolute;
@@ -263,17 +266,25 @@
 }
 
 .private-holidays-items .overlay-holidays {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  /* полупрозрачный белый фон для текста */
   background: rgba(255, 255, 255, 0.85);
-  color: #333;
+  color: black;
   text-align: center;
-  padding: 10px;
+  padding: 20px 120px;
   font-size: 1rem;
   line-height: 1.2;
+}
+
+.overlay-holiday {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fefefe; /* Фон теперь полупрозрачный */
+  padding: 500px 100px;
+  font-size: 18px; /* Увеличен шрифт для лучшего восприятия */
+  text-align: center;
+  color: #000; /* Черный текст для лучшего контраста */
+  max-width: 80%;
 }
 
 
